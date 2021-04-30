@@ -8,10 +8,9 @@ from time import sleep
 
 from bs4 import BeautifulSoup
 
-import MyHttp
-# import MyHttp2
-from SearchSploit.tools import MyTool
-from SearchSploit import setting
+from tools import MyHttp
+from tools import MyTool
+import setting
 
 logger = logging.getLogger(__name__)
 
