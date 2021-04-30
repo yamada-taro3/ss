@@ -1,0 +1,87 @@
+.result_table {
+  border-collapse: collapse;
+}
+
+.result_table th, .result_table td {
+  border: 1px solid gray;
+}
+
+.result_table th {
+  background-color: #ccf;
+}
+
+.result_table tr td:nth-of-type(1) {
+  background-color: #ddd;
+  width: 5%;
+}
+
+.result_table tr td:nth-of-type(2) {
+  background-color: #ccf;
+  width: 5%;
+}
+
+.result_table tr td:nth-of-type(3) {
+  width: 10%;
+}
+
+.result_table tr td:nth-of-type(4) {
+  width: 55%;
+}
+
+.result_table tr td:nth-of-type(5) {
+  width: 5%;
+}
+
+.result_table tr td:nth-of-type(6) {
+  width: 5%;
+}
+
+.result_table tr td:nth-of-type(7) {
+  width: 10%;
+}
+
+.result_table tr td:nth-of-type(8) {
+  width: 10%;
+}
+
+.base {
+/*  display: flex;*/
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.language-txt{
+/*  background-color: #ccf;*/
+  white-space: pre-wrap;
+  line-height: 120%; 　
+}
+.language-txt b{
+  background-color: #ccf;
+}
+
+.card-id{
+  background-color: #ccf;
+}
+
+.card-body{
+  background-color: #ddd;
+}
+
+
+.c_top{
+  width: 97%;
+  height: 30%;
+}
+
+.c_bottom{
+  width: 97%;
+  height: 70%;
+}
+/*
+.result_table ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+*/
